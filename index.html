@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/bola-de-crystal.svg"
+      type="image/x-icon"
+    />
+    <script src="./scripts/main.js" defer></script>
+
+    <title>Vou revelar seu destino!</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <img
+        src="./img/bola-de-crystal.svg"
+        alt="Imagem de uma bola de cristal"
+      />
+
+      <h1>Vou revelar seu destino!</h1>
+
+      <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+
+      <input id="inputPergunta" type="text" placeholder="Digite sua pergunta" />
+
+      <button id="buttonPerguntar" onclick="fazerPergunta()">Fazer Pergunta</button>
+
+      <h3 id="resposta"></h3>
+    </div>
+  </body>
+</html>
